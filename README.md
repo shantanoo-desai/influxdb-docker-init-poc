@@ -48,6 +48,48 @@ Unfortunately, this feature is yet to be documented. However, some resources to 
 2. [Pending Pull-Request for Documentation of Init Containers][3]
 3. [StackExchange Query with a _possible_ example][4]
 
+## System Specs
+
+Docker Engine version
+
+```bash
+Client:
+ Version:           20.10.12
+ API version:       1.41
+ Go version:        go1.17.5
+ Git commit:        e91ed5707e
+ Built:             Mon Dec 13 22:31:40 2021
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server:
+ Engine:
+  Version:          20.10.12
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.17.5
+  Git commit:       459d0dfbbb
+  Built:            Mon Dec 13 22:30:43 2021
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.6.1
+  GitCommit:        10f428dac7cec44c864e1b830a4623af27a9fc70.m
+ runc:
+  Version:          1.1.0
+  GitCommit:        v1.1.0-0-g067aaf85
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+```
+
+Docker Compose CLI Version (part of `docker` CLI)
+
+```bash
+Docker Compose version 2.3.3
+```
+
+
 [1]: https://hub.docker.com/_/influxdb/
 [2]: https://github.com/docker/compose/issues/6855
 [3]: https://github.com/docker/docker.github.io/issues/12633
